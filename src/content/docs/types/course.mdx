@@ -1,0 +1,152 @@
+---
+title: Types - Course
+description: The course types documentation for the RealGolf.Games project.
+---
+
+The course types provide developers with type safety when working with the course endpoints in the RealGolf.Games project. This documentation will provide you with the information you need to get started with the course types.
+
+## Installation
+
+To get started with the course types, you will need to install the `@realgolfgames/types` package. You can do this using npm or yarn:
+
+```sh
+npm install @realgolfgames/types
+# or
+yarn add @realgolfgames/types
+```
+
+## How to use the types
+
+Once you have installed the package, you can import the types into your project using the following code:
+
+```typescript
+import type {
+  Course,
+  CourseLocation,
+  CourseTee,
+  CourseTeeHole,
+  CourseRating,
+  CourseRatingObject
+} from '@realgolfgames/types';
+```
+
+## Types
+
+There are multiple types available for the course endpoints. Below is a list of the types available:
+
+- `Course` - Represents a golf course.
+- `CourseLocation` - Represents the geolocation of a golf course.
+- `CourseTee` - Represents a tee on a golf course.
+- `CourseTeeHole` - Represents a hole on a tee.
+- `CourseRating` - Represents the rating of a golf course.
+- `CourseRatingObject` - Represents the rating object for a golf course.
+
+### Course
+
+```typescript
+export type Course = {
+  id: string;
+  name: string;
+  geolocation: CourseLocation;
+  in_par: number;
+  out_par: number;
+  total_par: number;
+  tees: CourseTee[];
+  rating: CourseRating[];
+};
+```
+
+Represents a golf course with the following properties:
+
+- `id`: The unique identifier for the course.
+- `name`: The name of the course.
+- `geolocation`: The geolocation of the course, represented by `CourseLocation`.
+- `in_par`: The par for the front nine holes.
+- `out_par`: The par for the back nine holes.
+- `total_par`: The total par for the course.
+- `tees`: An array of `CourseTee` entries representing the tees on the course.
+- `rating`: An array of `CourseRating` entries representing the ratings of the course.
+
+### CourseLocation
+
+```typescript
+export type CourseLocation = {
+  latitude: number;
+  longitude: number;
+};
+```
+
+Represents the geolocation of a golf course with the following properties:
+
+- `latitude`: The latitude of the course.
+- `longitude`: The longitude of the course.
+
+### CourseTee
+
+```typescript
+export type CourseTee = {
+  color: string;
+  holes: CourseTeeHole[];
+  in_distance: number;
+  out_distance: number;
+  total_distance: number;
+};
+```
+
+Represents a tee on a golf course with the following properties:
+
+- `color`: The color of the tee.
+- `holes`: An array of `CourseTeeHole` entries representing the holes on the tee.
+- `in_distance`: The distance for the front nine holes.
+- `out_distance`: The distance for the back nine holes.
+- `total_distance`: The total distance for the tee.
+
+### CourseTeeHole
+
+```typescript
+export type CourseTeeHole = {
+  number: number;
+  par: number;
+  distance: number;
+  hcp: number;
+};
+```
+
+Represents a hole on a tee with the following properties:
+
+- `number`: The hole number.
+- `par`: The par for the hole.
+- `distance`: The distance of the hole.
+- `hcp`: The handicap rating for the hole.
+
+### CourseRating
+
+```typescript
+export type CourseRating = {
+  men: CourseRatingObject[];
+  ladies: CourseRatingObject[];
+};
+```
+
+Represents the rating of a golf course with the following properties:
+
+- `men`: An array of `CourseRatingObject` entries representing the ratings for men.
+- `ladies`: An array of `CourseRatingObject` entries representing the ratings for ladies.
+
+### CourseRatingObject
+
+```typescript
+export type CourseRatingObject = {
+  tee: string;
+  course: number;
+  slope: number;
+};
+```
+
+Represents the rating object for a golf course with the following properties:
+
+- `tee`: The tee for which the rating applies.
+- `course`: The course rating.
+- `slope`: The slope rating.
+
+All of these types can be imported directly from the `@realgolfgames/types` package and used as needed.

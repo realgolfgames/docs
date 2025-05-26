@@ -1,0 +1,52 @@
+---
+title: Types - Introduction
+description: The types documentation for the RealGolf.Games project.
+---
+
+RealGolfGames provides developers with an npm package that contains all the types needed to work with the RealGolf.Games project. This documentation will provide you with the information you need to get started with the RealGolf.Games types.
+
+## Getting started
+
+Install the RealGolf.Games types package from npm using one of the following commands:
+
+**NPM**:
+
+```bash
+npm install @realgolfgames/types
+```
+
+**Yarn**:
+
+```bash
+yarn add @realgolfgames/types
+```
+
+**PNPM**
+
+```bash
+pnpm add @realgolfgames/types
+```
+
+Once you have installed the package you can import the types into your project using the following code:
+
+**Example for the Blogs Endpoint**:
+
+```typescript
+import type { ReturnedBlog } from '@realgolfgames/types';
+```
+
+And example code would look something like this:
+
+```typescript
+import type { ReturnedBlog, Blog } from '@realgolfgames/types';
+
+const response = await fetch(
+  'https://api.realgolf.games/v1/blogs?apiKey=your-api-key'
+);
+
+const data: ReturnedBlog[] = await response.json();
+
+const { blogs }: Blog[] = data;
+```
+
+The above code will fetch the data from the `https://api.realgolf.games/v1/blogs` endpoint and destructur the data into the `blogs` variable.

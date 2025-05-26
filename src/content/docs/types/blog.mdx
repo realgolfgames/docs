@@ -1,0 +1,132 @@
+---
+title: Types - Blog
+description: The blog types documentation for the RealGolf.Games project.
+---
+
+The blog types provide developers with type safety when working with the blog endpoints in the RealGolf.Games project. This documentation will provide you with the information you need to get started with the blog types.
+
+## Installation
+
+To get started with the blog types, you will need to install the `@realgolfgames/types` package. You can do this using npm or yarn:
+
+```sh
+npm install @realgolfgames/types
+# or
+yarn add @realgolfgames/types
+```
+
+## How to use the types
+
+Once you have installed the package, you can import the types into your project using the following code:
+
+```typescript
+import type {
+  BlogTOC,
+  Blog,
+  ReturnedBlog,
+  PostBlog,
+  PatchBlog
+} from '@realgolfgames/types';
+```
+
+## Types
+
+There are multiple types available for the blog endpoints. Below is a list of the types available:
+
+- `BlogTOC` - Represents the table of contents for a blog.
+- `Blog` - Represents a blog.
+- `ReturnedBlog` - Represents the response when fetching blogs.
+- `PostBlog` - Represents the data needed to create a new blog.
+- `PatchBlog` - Represents the data needed to update an existing blog.
+
+### BlogTOC
+
+```typescript
+export type BlogTOC = {
+  text: string;
+  id: string;
+};
+```
+
+Represents the table of contents for a blog with the following properties:
+
+- `text`: The text of the table of contents entry.
+- `id`: The ID of the table of contents entry.
+
+### Blog
+
+```typescript
+export type Blog = {
+  title: string;
+  published: string;
+  updated: string;
+  author: string;
+  description: string;
+  content: string;
+  toc: BlogTOC[];
+};
+```
+
+Represents a blog with the following properties:
+
+- `title`: The title of the blog.
+- `published`: The publication date of the blog.
+- `updated`: The last updated date of the blog.
+- `author`: The author of the blog.
+- `description`: A brief description of the blog.
+- `content`: The content of the blog.
+- `toc`: An array of `BlogTOC` entries representing the table of contents.
+
+### ReturnedBlog
+
+```typescript
+export type ReturnedBlog = {
+  blogs: Blog[];
+  total: number;
+  skipped: number;
+  returned: number;
+};
+```
+
+Represents the response when fetching blogs with the following properties:
+
+- `blogs`: An array of `Blog` entries.
+- `total`: The total number of blogs available.
+- `skipped`: The number of blogs skipped in the response.
+- `returned`: The number of blogs returned in the response.
+
+### PostBlog
+
+```typescript
+export type PostBlog = {
+  content: string;
+  title: string;
+  author: string;
+  description: string;
+};
+```
+
+Represents the data needed to create a new blog with the following properties:
+
+- `content`: The content of the blog.
+- `title`: The title of the blog.
+- `author`: The author of the blog.
+- `description`: A brief description of the blog.
+
+### PatchBlog
+
+```typescript
+export type PatchBlog = {
+  content?: string;
+  title?: string;
+  description?: string;
+};
+```
+
+Represents the data needed to update an existing blog with the following optional properties:
+
+- `content`: The updated content of the blog.
+- `title`: The updated title of the blog.
+- `description`: The updated description of the blog.
+
+All of these types can be imported directly from the `@realgolfgames/types` package and used as needed.

@@ -1,0 +1,128 @@
+---
+title: Types - Game
+description: The game types documentation for the RealGolf.Games project.
+---
+
+The game types provide developers with type safety when working with the game endpoints in the RealGolf.Games project. This documentation will provide you with the information you need to get started with the game types.
+
+## Installation
+
+To get started with the game types, you will need to install the `@realgolfgames/types` package. You can do this using npm or yarn:
+
+```sh
+npm install @realgolfgames/types
+# or
+yarn add @realgolfgames/types
+```
+
+## How to use the types
+
+Once you have installed the package, you can import the types into your project using the following code:
+
+```typescript
+import type {
+  Game,
+  Comment,
+  Reply,
+  Reaction
+} from '@realgolfgames/types';
+```
+
+## Types
+
+There are multiple types available for the game endpoints. Below is a list of the types available:
+
+- `Game` - Represents a game.
+- `Comment` - Represents a comment on a game.
+- `Reply` - Represents a reply to a comment.
+- `Reaction` - Represents a reaction to a comment or reply.
+
+### Game
+
+```typescript
+export type Game = {
+  id: string;
+  type: string;
+  owner: string;
+  site: string;
+  name: string;
+  teams: string;
+  date: string;
+  data: string;
+  is_over: boolean;
+  comments: Comment[];
+};
+```
+
+Represents a game with the following properties:
+
+- `id`: The unique identifier for the game.
+- `type`: The type of the game.
+- `owner`: The owner of the game.
+- `site`: The site where the game is played.
+- `name`: The name of the game.
+- `teams`: The teams participating in the game.
+- `date`: The date of the game.
+- `data`: Additional data related to the game.
+- `is_over`: Whether the game is over.
+- `comments`: An array of `Comment` entries representing the comments on the game.
+
+### Comment
+
+```typescript
+export type Comment = {
+  id: string;
+  username: string;
+  date: Date;
+  content: string;
+  reactions: Reaction[];
+  replies: Reply[];
+  edited: boolean;
+};
+```
+
+Represents a comment on a game with the following properties:
+
+- `id`: The unique identifier for the comment.
+- `username`: The username of the commenter.
+- `date`: The date the comment was made.
+- `content`: The content of the comment.
+- `reactions`: An array of `Reaction` entries representing the reactions to the comment.
+- `replies`: An array of `Reply` entries representing the replies to the comment.
+- `edited`: Whether the comment has been edited.
+
+### Reply
+
+```typescript
+export type Reply = {
+  id: string;
+  username: string;
+  date: Date;
+  content: string;
+  reactions: Reaction[];
+};
+```
+
+Represents a reply to a comment with the following properties:
+
+- `id`: The unique identifier for the reply.
+- `username`: The username of the replier.
+- `date`: The date the reply was made.
+- `content`: The content of the reply.
+- `reactions`: An array of `Reaction` entries representing the reactions to the reply.
+
+### Reaction
+
+```typescript
+export type Reaction = {
+  emoji: string;
+  username: string;
+};
+```
+
+Represents a reaction to a comment or reply with the following properties:
+
+- `emoji`: The emoji used for the reaction.
+- `username`: The username of the person who reacted.
+
+All of these types can be imported directly from the `@realgolfgames/types` package and used as needed.

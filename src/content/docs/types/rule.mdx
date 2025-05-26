@@ -1,0 +1,75 @@
+---
+title: Types - Rule
+description: The rule types documentation for the RealGolf.Games project.
+---
+
+The rule types provide developers with type safety when working with the rule endpoints in the RealGolf.Games project. This documentation will provide you with the information you need to get started with the rule types.
+
+## Installation
+
+To get started with the rule types, you will need to install the `@realgolfgames/types` package. You can do this using npm or yarn:
+
+```sh
+npm install @realgolfgames/types
+# or
+yarn add @realgolfgames/types
+```
+
+## How to use the types
+
+Once you have installed the package, you can import the types into your project using the following code:
+
+```typescript
+import type { Rule, RuleTOC } from '@realgolfgames/types';
+```
+
+## Types
+
+There are multiple types available for the rule endpoints. Below is a list of the types available:
+
+- `Rule` - Represents a rule.
+- `RuleTOC` - Represents the table of contents for a rule.
+
+### Rule
+
+```typescript
+export type Rule = {
+  id: string;
+  title: string;
+  content: string;
+  toc: RuleTOC;
+};
+```
+
+Represents a rule with the following properties:
+
+- `id`: The unique identifier for the rule.
+- `title`: The title of the rule.
+- `content`: The content of the rule.
+- `toc`: The table of contents for the rule, represented by `RuleTOC`.
+
+### RuleTOC
+
+```typescript
+export type RuleTOC = {
+  h2: {
+    id: string;
+    text: string;
+    h3: {
+      id: string;
+      text: string;
+    }[];
+  }[];
+};
+```
+
+Represents the table of contents for a rule with the following properties:
+
+- `h2`: An array of objects representing the second-level headings, each with the following properties:
+  - `id`: The unique identifier for the heading.
+  - `text`: The text of the heading.
+  - `h3`: An array of objects representing the third-level headings under this heading, each with the following properties:
+    - `id`: The unique identifier for the heading.
+    - `text`: The text of the heading.
+
+All of these types can be imported directly from the `@realgolfgames/types` package and used as needed.

@@ -1,0 +1,40 @@
+---
+title: Welcome to RealGolf.Games Developer Docs
+description: This are the docs for the RealGolf.Games API.
+template: splash
+hero:
+  tagline: This are the dev docs for the RealGolf.Games API.
+  image:
+    file: ../../assets/logo.PNG
+  actions:
+    - text: Get started
+      link: /developer/docs/getting-started/introduction
+      icon: seti:code-search
+    - text: Login to the Developer Portal
+      link: /developer
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+  <Card title="Getting Started" icon="seti:code-search">
+    Follow the getting started guide to start using the RealGolf.Games
+    organisation. [Getting Started](/developer/docs/getting-started/introduction)
+  </Card>
+  <Card title="API" icon="open-book">
+    Explore the API documentation for the RealGolf.Games API. [API
+    Docs](/developer/docs/api/introduction)
+  </Card>
+  <Card title="RealGolf.Games" icon="external">
+    Visit the RealGolf.Games website.
+    [RealGolf.Games](/)
+  </Card>
+  <Card title="Crowdin Translation" icon="translate">
+    Check our Translation progress on Crowdin.
+    [Crowdin](https://crowdin.com/project/realgolf)
+  </Card>
+</CardGrid>
