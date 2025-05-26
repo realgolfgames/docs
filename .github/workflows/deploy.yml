@@ -1,0 +1,13 @@
+name: Deploy Web on Docs Update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Render Deploy Hook
+        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
