@@ -13,10 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.x
+
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
+
       - name: Build docs
-        run: npm run build:docs
+        run: npm run build
 
   trigger-deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
