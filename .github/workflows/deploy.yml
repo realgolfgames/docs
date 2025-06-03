@@ -30,10 +30,13 @@ jobs:
       - name: Build docs
         run: npm run build
 
-  trigger-deploy:
+  deploy:
+    name: Deploy to Production
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://realgolf.games
     steps:
-      - name: Call Render Deploy Hook
+      - name: Trigger Render Deploy
         run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
