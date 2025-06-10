@@ -26,25 +26,56 @@ export default defineConfig({
       sidebar: [
         {
           label: "Getting Started",
-          items: [{ label: "Introduction", link: "/getting-started/introduction" }],
+          translations: {
+            de: "Erste Schritte",
+          },
+          items: [
+            {
+              label: "Introduction",
+              translations: { de: "Einleitung" },
+              link: "/getting-started/introduction",
+            },
+          ],
         },
         {
           label: "API",
-          items: [{ label: "Introduction", link: "/api/introduction" }],
+          translations: {
+            de: "API",
+          },
+          items: [
+            {
+              label: "Introduction",
+              translations: { de: "Einleitung" },
+              link: "/api/introduction",
+            },
+          ],
         },
         {
           label: "Types",
+          translations: {
+            de: "Typen",
+          },
           items: [
-            { label: "Introduction", link: "/types/introduction" },
-            { label: "Blog", link: "/types/blog" },
-            { label: "Course", link: "/types/course" },
-            { label: "Game", link: "/types/game" },
-            { label: "Rule", link: "/types/rule" },
+            {
+              label: "Introduction",
+              translations: { de: "Einleitung" },
+              link: "/types/introduction",
+            },
+            { label: "Blog", translations: { de: "Blog" }, link: "/types/blog" },
+            { label: "Course", translations: { de: "Platz" }, link: "/types/course" },
+            { label: "Game", translations: { de: "Spiel" }, link: "/types/game" },
+            { label: "Rule", translations: { de: "Regel" }, link: "/types/rule" },
           ],
         },
         {
           label: "SDKs",
-          items: [{ label: "Introduction", link: "/sdks/introduction" }],
+          items: [
+            {
+              label: "Introduction",
+              translations: { de: "Einleitung" },
+              link: "/sdks/introduction",
+            },
+          ],
         },
       ],
     }),

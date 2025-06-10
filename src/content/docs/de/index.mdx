@@ -16,7 +16,8 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { Card, CardGrid, LinkButton } from "@astrojs/starlight/components";
+import "../../../styles/global.css";
 
 ## Nächste Schritte
 
@@ -37,3 +38,66 @@ import { Card, CardGrid } from "@astrojs/starlight/components";
     [Crowdin](https://crowdin.com/project/realgolf)
   </Card>
 </CardGrid>
+
+## Hilfe und Support
+
+---
+
+<div className="docs-help-box">
+**Helf uns, diese Dokumentation zu verbessern!**
+
+Alle RealGolf.Games Dokumentation sind Open Source. Sehen Sie etwas, das falsch oder unklar ist? Reichen Sie eine Pull Request ein.
+
+<LinkButton variant="primary" href="https://github.com/realgolfgames/docs " icon="pencil">
+  Machen Sie einen Beitrag
+</LinkButton>
+</div>
+
+#### Rechtliche Hinweise
+
+---
+
+<div className="docs-legal">
+  © 2022 - 2025 RealGolf.Games UG (haftungsbeschränkt). Alle Rechte Vorbehalten. &nbsp;
+  <div className="docs-legal-links">
+    <LinkButton
+      variant="minimal"
+      href="/privacy"
+      style={{
+        padding: "0",
+        margin: "0",
+        marginBlock: "0",
+        color: "inherit",
+        textDecoration: "underline",
+      }}
+    >
+      Datenschutz
+    </LinkButton>
+    <LinkButton
+      variant="minimal"
+      href="/terms"
+      style={{
+        padding: "0",
+        margin: "0",
+        marginBlock: "0",
+        color: "inherit",
+        textDecoration: "underline",
+      }}
+    >
+      Bedingungen
+    </LinkButton>
+    <LinkButton
+      variant="minimal"
+      href="/imprint"
+      style={{
+        padding: "0",
+        margin: "0",
+        marginBlock: "0",
+        color: "inherit",
+        textDecoration: "underline",
+      }}
+    >
+      Impressum
+    </LinkButton>
+  </div>
+</div>
