@@ -17,6 +17,7 @@ hero:
 ---
 
 import { Card, CardGrid, LinkButton } from "@astrojs/starlight/components";
+import "../../../styles/global.css";
 
 ## Next steps
 
@@ -41,8 +42,8 @@ import { Card, CardGrid, LinkButton } from "@astrojs/starlight/components";
 
 ---
 
-<div style="width: 33%; margin: 0 1rem; text-align: left;">
-### Help us make these docs great!
+<div className="docs-help-box">
+**Help us make these docs great!**
 
 All RealGolf.Games docs are open source. See something that's wrong or unclear? Submit a pull request.
 
@@ -55,45 +56,47 @@ All RealGolf.Games docs are open source. See something that's wrong or unclear? 
 
 ---
 
-<div style="margin: 0 1rem; text-align: left; display: flex; flex-direction: row; gap: 0.5rem;">
+<div className="docs-legal">
   © 2022 - 2025 RealGolf.Games UG (haftungsbeschränkt). All rights reserved. &nbsp;
-  <LinkButton
-    variant="minimal"
-    href="/privacy"
-    style={{
-      padding: "0",
-      margin: "0",
-      marginBlock: "0",
-      color: "inherit",
-      textDecoration: "underline",
-    }}
-  >
-    Privacy
-  </LinkButton>
-  <LinkButton
-    variant="minimal"
-    href="/terms"
-    style={{
-      padding: "0",
-      margin: "0",
-      marginBlock: "0",
-      color: "inherit",
-      textDecoration: "underline",
-    }}
-  >
-    Terms
-  </LinkButton>
-  <LinkButton
-    variant="minimal"
-    href="/imprint"
-    style={{
-      padding: "0",
-      margin: "0",
-      marginBlock: "0",
-      color: "inherit",
-      textDecoration: "underline",
-    }}
-  >
-    Imprint
-  </LinkButton>
+  <div className="docs-legal-links">
+    <LinkButton
+      variant="minimal"
+      href="/privacy"
+      style={{
+        padding: "0",
+        margin: "0",
+        marginBlock: "0",
+        color: "inherit",
+        textDecoration: "underline",
+      }}
+    >
+      Privacy
+    </LinkButton>
+    <LinkButton
+      variant="minimal"
+      href="/terms"
+      style={{
+        padding: "0",
+        margin: "0",
+        marginBlock: "0",
+        color: "inherit",
+        textDecoration: "underline",
+      }}
+    >
+      Terms
+    </LinkButton>
+    <LinkButton
+      variant="minimal"
+      href="/imprint"
+      style={{
+        padding: "0",
+        margin: "0",
+        marginBlock: "0",
+        color: "inherit",
+        textDecoration: "underline",
+      }}
+    >
+      Imprint
+    </LinkButton>
+  </div>
 </div>

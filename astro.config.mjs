@@ -8,8 +8,8 @@ export default defineConfig({
   integrations: [
     starlight({
       title: {
-        en: "RealGolf.Games Developer Documentation",
-        de: "RealGolf.Games Entwicklerdokumentation",
+        en: "Docs",
+        de: "Docs",
       },
       defaultLocale: "en",
       locales: {
@@ -24,6 +24,14 @@ export default defineConfig({
       favicon: "logo.PNG",
       social: [{ icon: "github", label: "GitHub", href: "https://github.com/realgolfgames/docs" }],
       sidebar: [
+        {
+          label: "Getting Started",
+          items: [{ label: "Introduction", link: "/getting-started/introduction" }],
+        },
+        {
+          label: "API",
+          items: [{ label: "Introduction", link: "/api/introduction" }],
+        },
         {
           label: "Types",
           items: [

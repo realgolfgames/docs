@@ -1,0 +1,29 @@
+.docs-help-box {
+  width: 33%;
+  margin: 0 1rem;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .docs-help-box {
+    width: 100%;
+  }
+}
+
+.docs-legal {
+  margin: 0 1rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.docs-legal-links {
+    margin-top: -0.125rem;
+}
+
+@media (max-width: 1024px) {
+  .docs-legal {
+    flex-direction: column;
+  }
+}
