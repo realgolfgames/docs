@@ -11,6 +11,10 @@ export default defineConfig({
         en: "Docs",
         de: "Docs",
       },
+      lastUpdated: true,
+      editLink: {
+        baseUrl: "https://github.com/realgolfgames/docs/tree/main",
+      },
       defaultLocale: "en",
       locales: {
         en: {
