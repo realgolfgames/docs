@@ -42,6 +42,10 @@ export default defineConfig({
             { label: "Rule", link: "/types/rule" },
           ],
         },
+        {
+          label: "SDKs",
+          items: [{ label: "Introduction", link: "/sdks/introduction" }],
+        },
       ],
     }),
   ],
