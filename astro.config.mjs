@@ -1,87 +1,109 @@
 // @ts-check
-import starlight from "@astrojs/starlight";
-import { defineConfig } from "astro/config";
+import starlight from '@astrojs/starlight';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  base: "/developer/docs/",
+  base: '/developer/docs/',
   integrations: [
     starlight({
       title: {
-        en: "Docs",
-        de: "Docs",
+        en: 'Docs',
+        de: 'Docs'
       },
       lastUpdated: true,
       editLink: {
-        baseUrl: "https://github.com/realgolfgames/docs/tree/main",
+        baseUrl: 'https://github.com/realgolfgames/docs/tree/main'
       },
-      defaultLocale: "en",
+      defaultLocale: 'en',
       locales: {
         en: {
-          label: "English",
-          lang: "en",
+          label: 'English',
+          lang: 'en'
         },
         de: {
-          label: "Deutsch",
-        },
+          label: 'Deutsch'
+        }
       },
-      favicon: "logo.PNG",
-      social: [{ icon: "github", label: "GitHub", href: "https://github.com/realgolfgames/docs" }],
+      favicon: 'logo.PNG',
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/realgolfgames/docs'
+        }
+      ],
       sidebar: [
         {
-          label: "Getting Started",
+          label: 'Getting Started',
           translations: {
-            de: "Erste Schritte",
+            de: 'Erste Schritte'
           },
           items: [
             {
-              label: "Introduction",
-              translations: { de: "Einleitung" },
-              link: "/getting-started/introduction",
-            },
-          ],
+              label: 'Introduction',
+              translations: { de: 'Einleitung' },
+              link: '/getting-started/introduction'
+            }
+          ]
         },
         {
-          label: "API",
+          label: 'API',
           translations: {
-            de: "API",
+            de: 'API'
           },
           items: [
             {
-              label: "Introduction",
-              translations: { de: "Einleitung" },
-              link: "/api/introduction",
-            },
-          ],
+              label: 'Introduction',
+              translations: { de: 'Einleitung' },
+              link: '/api/introduction'
+            }
+          ]
         },
         {
-          label: "Types",
+          label: 'Types',
           translations: {
-            de: "Typen",
+            de: 'Typen'
           },
           items: [
             {
-              label: "Introduction",
-              translations: { de: "Einleitung" },
-              link: "/types/introduction",
+              label: 'Introduction',
+              translations: { de: 'Einleitung' },
+              link: '/types/introduction'
             },
-            { label: "Blog", translations: { de: "Blog" }, link: "/types/blog" },
-            { label: "Course", translations: { de: "Platz" }, link: "/types/course" },
-            { label: "Game", translations: { de: "Spiel" }, link: "/types/game" },
-            { label: "Rule", translations: { de: "Regel" }, link: "/types/rule" },
-          ],
+            {
+              label: 'Blog',
+              translations: { de: 'Blog' },
+              link: '/types/blog'
+            },
+            {
+              label: 'Course',
+              translations: { de: 'Platz' },
+              link: '/types/course'
+            },
+            {
+              label: 'Game',
+              translations: { de: 'Spiel' },
+              link: '/types/game'
+            },
+            {
+              label: 'Rule',
+              translations: { de: 'Regel' },
+              link: '/types/rule'
+            }
+          ]
         },
         {
-          label: "SDKs",
+          label: 'SDKs',
           items: [
             {
-              label: "Introduction",
-              translations: { de: "Einleitung" },
-              link: "/sdks/introduction",
-            },
-          ],
-        },
-      ],
-    }),
-  ],
+              label: 'Introduction',
+              translations: { de: 'Einleitung' },
+              link: '/sdks/introduction'
+            }
+          ]
+        }
+      ]
+    })
+  ]
 });
