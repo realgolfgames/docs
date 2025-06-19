@@ -61,6 +61,19 @@ export default defineConfig({
           ]
         },
         {
+          label: "Golfrules API",
+          translations: {
+            de: 'Golfrules API'
+          },
+          items: [
+            {
+              label: 'Introduction',
+              translations: { de: 'Einleitung' },
+              link: '/api/rules/introduction'
+            },
+          ]
+        },
+        {
           label: 'Types',
           translations: {
             de: 'Typen'

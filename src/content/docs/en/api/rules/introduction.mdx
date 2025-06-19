@@ -1,0 +1,21 @@
+---
+title: Golfrules API
+description: This are the API docs for the RealGolf.Games Golfrules API
+---
+
+Welcome to the Golf Rules API. This API provides programmatic access to the official golf rules as defined by the USGA, R&A and DGV. It allows developers to integrate golf rules into their applications, enabling features such as rule lookups, interpretations, and more.
+
+## Key Features
+
+- Limit the number of returned rules and paginate results using `limit` and `skip`.
+- Group rules by categories using the `grouped` parameter (default: true).
+- Retrieve a specific rule by its `id`.
+- Full-text search in rule titles and texts with `search` (coming soon).
+- Filter rules by category using `category` (e.g., "penalties").
+- Sort results by fields like `ruleNumber`, `priority`, or `updatedAt` using `sortBy` and `sortOrder`.
+- Support multiple languages via the `language` parameter.
+- Query older rule versions with the `version` parameter.
+- Include example texts with `includeExamples` (default: false).
+- Include cross-references and links with `includeReferences` (default: false).
+
+If you need any other features, please open an issue on our [GitHub repository](https://github.com/realgolfgames/golfrules-api/issues). We are always looking to improve the API and add new features based on user feedback. You can also contribute to the project by submitting pull requests or suggesting improvements.
