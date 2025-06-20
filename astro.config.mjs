@@ -1,12 +1,14 @@
 // @ts-check
 import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
+import starlightThemeNova from "starlight-theme-nova";
 
 // https://astro.build/config
 export default defineConfig({
   base: "/developer/docs/",
   integrations: [
     starlight({
+      plugins: [starlightThemeNova()],
       title: {
         en: "Docs",
         de: "Docs",
