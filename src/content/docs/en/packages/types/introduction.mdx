@@ -34,15 +34,17 @@ Once you have installed the package you can import the types into your project u
 **Example for the Blogs Endpoint**:
 
 ```typescript
-import type { ReturnedBlog } from "@realgolfgames/types";
+import type { ReturnedBlog } from '@realgolfgames/types';
 ```
 
 And example code would look something like this:
 
 ```typescript
-import type { ReturnedBlog, Blog } from "@realgolfgames/types";
+import type { ReturnedBlog, Blog } from '@realgolfgames/types';
 
-const response = await fetch("https://api.realgolf.games/v1/blogs?apiKey=your-api-key");
+const response = await fetch(
+  'https://api.realgolf.games/v1/blogs?apiKey=your-api-key'
+);
 
 const data: ReturnedBlog[] = await response.json();
 
