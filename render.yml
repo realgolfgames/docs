@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: realgolfgames-docs
+    runtime: static
+    buildCommand: npm run build
+    staticPublishPath: dist
+    routes:
+      - type: redirect
+        source: /
+        destination: /en
