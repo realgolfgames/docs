@@ -1,7 +1,7 @@
 # RealGolf.Games Developer Docs
 
 This repository contains the documentation website code and Markdown source files for  
-[realgolf.games/developer/docs](https://realgolf.games/developer/docs).
+[docs.realgolfgames.com](https://docs.realgolfgames.com).
 
 ## Deployment
 

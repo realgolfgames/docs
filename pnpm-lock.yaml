@@ -20,6 +20,9 @@ importers:
       sharp:
         specifier: ^0.34.2
         version: 0.34.2
+      starlight-sidebar-topics:
+        specifier: ^0.6.0
+        version: 0.6.0(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))
       starlight-theme-nova:
         specifier: ^0.9.0
         version: 0.9.0(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))(typescript@5.8.3)
@@ -1913,6 +1916,12 @@ packages:
 
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
+
+  starlight-sidebar-topics@0.6.0:
+    resolution: {integrity: sha512-ysmOR7zaHYKtk18/mpW4MbEMDioR/ZBsisu9bdQrq0v9BlHWpW7gAdWlqFWO9zdv1P7l0Mo1WKd0wJ0UtqOVEQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.32.0'
 
   starlight-theme-nova@0.9.0:
     resolution: {integrity: sha512-Hk85+61KXx1xq4JV0jortgaztIra5jxpKvTcqnrI/RXPx/vYdyHeIg6vk3Ij5ZO0VfogNANUeQs+B2oj7lP3kw==}
@@ -4899,6 +4908,11 @@ snapshots:
   source-map@0.7.4: {}
 
   space-separated-tokens@2.0.2: {}
+
+  starlight-sidebar-topics@0.6.0(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0))):
+    dependencies:
+      '@astrojs/starlight': 0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0))
+      picomatch: 4.0.2
 
   starlight-theme-nova@0.9.0(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))(typescript@5.8.3):
     dependencies:
