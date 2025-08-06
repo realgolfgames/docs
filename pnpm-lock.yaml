@@ -24,8 +24,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))
       starlight-theme-nova:
-        specifier: ^0.9.0
-        version: 0.9.0(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))(typescript@5.8.3)
+        specifier: ^0.9.3
+        version: 0.9.3(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -44,47 +44,47 @@ packages:
   '@aria-ui/tooltip@0.0.29':
     resolution: {integrity: sha512-U1h430e9c9frIHB/3BPUJNpu0PUeY3La99QQPA53Rn2tC+Up9B0MS9arwROOnkpEKfdEzCczlHTyxnLx9wfGdA==}
 
-  '@ariatype/aria-attributes-drag-and-drop@1.0.1':
-    resolution: {integrity: sha512-C1cZHJuL2e0dhFv0tgyHNPd+WC5oMlzqRxiKQlluyQakWoOoxRIHJbRNd7EajXdu6rwTKgfxZE9ag8gSKnFiKQ==}
+  '@ariatype/aria-attributes-drag-and-drop@1.0.2':
+    resolution: {integrity: sha512-JbbKaKkYMN/zc//irXYb6QFIMm+A4tpwgs6x4BrNtqU/Jeq2vk4i3LhnHBB1SaMfihGtcH8/Sj++o4jaIBXyCw==}
 
-  '@ariatype/aria-attributes-global@1.0.1':
-    resolution: {integrity: sha512-f0lqlhAJdAjC/RswZ1nK39GZyi60U4pBIItLVwiN28n1q0Pi3nGEVCu5iSN3TvwMtasgsWMB8cuQ96jd2GDe+Q==}
+  '@ariatype/aria-attributes-global@1.0.2':
+    resolution: {integrity: sha512-7SFhMMqiO8bd1/bePd+QTxJTkRKQpl1nsgFSpfeXFV3bypl93JYTkQyspbmkmSSqV6yQDwgfOA4XPapWDKiU9Q==}
 
-  '@ariatype/aria-attributes-live-region@1.0.1':
-    resolution: {integrity: sha512-P7K9EOh/qyh+7p7SZQ/2MiZwwHDWkTStlbql3ZpI6i+4FwS23PvwCXjhPIIiHn6lrw1tNV5zXBTWOzEBWmHgVw==}
+  '@ariatype/aria-attributes-live-region@1.0.2':
+    resolution: {integrity: sha512-WXlPVXAtaOShNnthxYAeA0L1OdJyMORyg+fOVdgQPw5hVI0zkF4tq/TA/k39QZOc82Ox5hDJBZqSTmg0pfk45g==}
 
-  '@ariatype/aria-attributes-relationship@1.0.1':
-    resolution: {integrity: sha512-vg3TgzCFQvhIUJiKV+k086KKa+yJ7g472nJLEYpTTeyh5qp3UY/llxORWAgMVYjBRgHp7RDDtr2KBUS/yNzfqw==}
+  '@ariatype/aria-attributes-relationship@1.0.2':
+    resolution: {integrity: sha512-pMhhosfqc42Pp0mQ5zMoyLNnrLTqB3dHrxD2hPyd4ahLjn7uty2SBvfjpEMRUmVpYzVskk3TkOogceQdGE1dCQ==}
 
-  '@ariatype/aria-attributes-widget@1.0.1':
-    resolution: {integrity: sha512-ualglvS5d/55Y+tUAcymx2xslSiBMCBJJwkzZ9fq60d7At7Rf2m5lr1KFxBGAdWEo00qj2DgAXXbbKH0927Dzg==}
+  '@ariatype/aria-attributes-widget@1.0.2':
+    resolution: {integrity: sha512-jhTD9Hsjj3s/UpCX1/0JeEVyH/MlSspwxMkdrUjjYN2fOZuScSlv2uhxQs7L7CAYprcESu7ze9PCILOwaIcuWw==}
 
-  '@ariatype/aria-attributes@1.0.1':
-    resolution: {integrity: sha512-pnwf/p4gciKU0SCzAmZWMpL8ZubyKGcKa1ruhzpTVuRXT8VYtqcajtWXrHKAK7071YLS1v0tAKpCHB2tZmVfUg==}
+  '@ariatype/aria-attributes@1.0.2':
+    resolution: {integrity: sha512-fI6gnJwPaspKbpDruU21P/2RE5AGj7ZUtMXXfsTAHV+IFodd16HCBvifF8yQpFCU8bDvJjhaDaUoBt+89okE0w==}
 
-  '@ariatype/aria-roles-composite@1.0.1':
-    resolution: {integrity: sha512-Snhi7xDDoQKDu+57GrN/JC9dWmnBIAPBYzKqFr+1eIJjsieiHTSIL8NyZcTqTIJVAm2J4zNPkT4UvIJPW9lEvw==}
+  '@ariatype/aria-roles-composite@1.0.2':
+    resolution: {integrity: sha512-PchMV4wxWsFeR2b774ZYXgUdBCDwpVUOGrhxgVG2NLK4y6BNbL4NvGgujvxEa3US5QHaeDk9nXF1t2HGprXtbg==}
 
-  '@ariatype/aria-roles-document-structure@1.0.1':
-    resolution: {integrity: sha512-+BMQ8DmVINg0erDSwf6RxrV68Ry3ou2IZnnVJba23KZVM+PNw6UwL055N1N68fNgizX2nrd3ectDtsq6DazCzQ==}
+  '@ariatype/aria-roles-document-structure@1.0.2':
+    resolution: {integrity: sha512-luBB23nVL8jdfLZZBjZ7SaNTs7cgiEMqsfPdJGgvXFUjWPYC46pDwkz7GoFgkgCTUB4/PuDh/DzYw3ySUHYNWQ==}
 
-  '@ariatype/aria-roles-generic@1.0.1':
-    resolution: {integrity: sha512-797pOcQndj3VSAW4/M+Fb4sh8SjyB9NrWWB/Q2DCBsrFxRzjlPf+jCL78knKOkllp0UJErtKSjWyz8KrDr9edQ==}
+  '@ariatype/aria-roles-generic@1.0.2':
+    resolution: {integrity: sha512-dYmVwqWZ4vKR8dygp60JHbVbjorEOSK72Tktpfw7q35bcH455Fj81GtMtw4Mq/71RWsTaR7coQRwBbqwsGCOpw==}
 
-  '@ariatype/aria-roles-landmark@1.0.1':
-    resolution: {integrity: sha512-oVlgz1d30aGbkonCe08nyM2xMkaqANsfYO3c8cWM/Gqbow7FCtdejOYjXjhz2q99MGltd7Gla9htAhGYK7vROw==}
+  '@ariatype/aria-roles-landmark@1.0.2':
+    resolution: {integrity: sha512-f8SoNedYsZp2R9+huGFkkAbb2AgI7ofMSnPdjRpcNrM2hkqqrIVzpbDazkV0YtoEpbgHdmRnFE3xxWknKRIOoQ==}
 
-  '@ariatype/aria-roles-live-region@1.0.1':
-    resolution: {integrity: sha512-VTIchI0cg2a1HTPB5JcmzboS5YA6MXFNnvEx0K+gRDzLL0AJgwQS2yxHyDcPt6GUyE/N8/Ul1fg4njl+Qp0jiA==}
+  '@ariatype/aria-roles-live-region@1.0.2':
+    resolution: {integrity: sha512-k/HxYoquWwyHS11lm4+M1UHgH0UFEvtxU/DQZGaUOIFG7gjDDX1e+M9hsgGgEHMEsD1ev75PLdNRTAmZwbH+kA==}
 
-  '@ariatype/aria-roles-widget@1.0.1':
-    resolution: {integrity: sha512-7TYRjcmRV7m+7XJ4619jGb72qX4GrmCU/AHFN58ro1yYXwSb6THd4xHMc0fDjO2yXTFy0HNIyZ/d3ZpJsoAIpw==}
+  '@ariatype/aria-roles-widget@1.0.2':
+    resolution: {integrity: sha512-uGEIXgu0dnDtBahcBHoo8mT+OZOXj3sZhPH067p+D+WViumb0yLbPtdqnVaLVeCDeuyLopWMp7OW6SD6h+5IDw==}
 
-  '@ariatype/aria-roles-window@1.0.1':
-    resolution: {integrity: sha512-laLPFW9UUcNvCyBiv+dSa+tzIUODZMLOPoNkjFpbCBYSlW65QhvvA8o7sah4TS+L7v6qr7jFrGlVq2LPadBLJQ==}
+  '@ariatype/aria-roles-window@1.0.2':
+    resolution: {integrity: sha512-zd1f5nzc+3FfrpjSz8HfbOyiVxlRfi2Xrs8Rk5JHIw9kkZIa5Mf2M55bBlTZVNLCO8l5oUrIPxhi0seR3kN9bA==}
 
-  '@ariatype/aria-roles@1.0.1':
-    resolution: {integrity: sha512-5XhX1IKcMWIqbQonV20C8lcAzg+pErGLWRK2Itam01F1I6YPxj1zC+52bE5M0seoK9UmJc2qHs6777a8cY9atw==}
+  '@ariatype/aria-roles@1.0.2':
+    resolution: {integrity: sha512-ZhQTwM1Q5TdoJlFIdaveZMjE0sMGZ4qTpZLbn1b9HqXoixHLzbWWZlmeAPXpSrYjQsCsJlnuIlL9LeYCLT61ag==}
 
   '@astrojs/check@0.9.4':
     resolution: {integrity: sha512-IOheHwCtpUfvogHHsvu0AbeRZEnjJg3MopdLddkJE70mULItS/Vh37BHcI00mcOJcH1vhD3odbpvWokpxam7xA==}
@@ -352,14 +352,14 @@ packages:
   '@expressive-code/plugin-text-markers@0.41.2':
     resolution: {integrity: sha512-JFWBz2qYxxJOJkkWf96LpeolbnOqJY95TvwYc0hXIHf9oSWV0h0SY268w/5N3EtQaD9KktzDE+VIVwb9jdb3nw==}
 
-  '@floating-ui/core@1.7.1':
-    resolution: {integrity: sha512-azI0DrjMMfIug/ExbBaeDVJXcY0a7EPvPjb2xAJPa4HeimBX+Z18HK8QQR3jb6356SnDDdxx+hinMLcJEDdOjw==}
+  '@floating-ui/core@1.7.3':
+    resolution: {integrity: sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==}
 
-  '@floating-ui/dom@1.7.1':
-    resolution: {integrity: sha512-cwsmW/zyw5ltYTUeeYJ60CnQuPqmGwuGVhG9w0PRaRKkAyi38BT5CKrpIbb+jtahSwUl04cWzSx9ZOIxeS6RsQ==}
+  '@floating-ui/dom@1.7.3':
+    resolution: {integrity: sha512-uZA413QEpNuhtb3/iIKoYMSK07keHPYeXF02Zhd6e213j+d1NamLix/mCLxBUDW/Gx52sPH2m+chlUsyaBs/Ag==}
 
-  '@floating-ui/utils@0.2.9':
-    resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
+  '@floating-ui/utils@0.2.10':
+    resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -588,8 +588,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.4':
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
 
-  '@lit-labs/ssr-dom-shim@1.3.0':
-    resolution: {integrity: sha512-nQIWonJ6eFAvUUrSlwyHDm/aE8PBDu5kRpL0vHMg6K8fK3Diq1xdPjTnsJSwxABhaZ+5eBi1btQB5ShUTKo4nQ==}
+  '@lit-labs/ssr-dom-shim@1.4.0':
+    resolution: {integrity: sha512-ficsEARKnmmW5njugNYKipTm4SFnbik7CXtoencDZzmzo/dQ+2Q0bgkzJuoJP20Aj0F+izzJjOqsnkd6F/o1bw==}
 
   '@mdx-js/mdx@3.1.0':
     resolution: {integrity: sha512-/QxEhPAvGwbQmy1Px8F899L5Uc2KZ6JtXwlCgJmjSTBedwOZkByYcBG4GceIGPXRDsmfxhHazuS+hlOShRLeDw==}
@@ -637,8 +637,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@preact/signals-core@1.10.0':
-    resolution: {integrity: sha512-qlKeXlfqtlC+sjxCPHt6Sk0/dXBrKZVcPlianqjNc/vW263YBFiP5mRrgKpHoO0q222Thm1TdYQWfCKpbbgvwA==}
+  '@preact/signals-core@1.11.0':
+    resolution: {integrity: sha512-jglbibeWHuFRzEWVFY/TT7wB1PppJxmcSfUHcK+2J9vBRtiooMfw6tAPttojNYrrpdGViqAYCbPpmWYlMm+eMQ==}
 
   '@rollup/pluginutils@5.2.0':
     resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
@@ -752,6 +752,9 @@ packages:
   '@shikijs/core@3.7.0':
     resolution: {integrity: sha512-yilc0S9HvTPyahHpcum8eonYrQtmGTU0lbtwxhA6jHv4Bm1cAdlPFRCJX4AHebkCm75aKTjjRAW+DezqD1b/cg==}
 
+  '@shikijs/core@3.9.2':
+    resolution: {integrity: sha512-3q/mzmw09B2B6PgFNeiaN8pkNOixWS726IHmJEpjDAcneDPMQmUg2cweT9cWXY4XcyQS3i6mOOUgQz9RRUP6HA==}
+
   '@shikijs/engine-javascript@3.7.0':
     resolution: {integrity: sha512-0t17s03Cbv+ZcUvv+y33GtX75WBLQELgNdVghnsdhTgU3hVcWcMsoP6Lb0nDTl95ZJfbP1mVMO0p3byVh3uuzA==}
 
@@ -764,19 +767,19 @@ packages:
   '@shikijs/themes@3.7.0':
     resolution: {integrity: sha512-VJx8497iZPy5zLiiCTSIaOChIcKQwR0FebwE9S3rcN0+J/GTWwQ1v/bqhTbpbY3zybPKeO8wdammqkpXc4NVjQ==}
 
-  '@shikijs/transformers@3.7.0':
-    resolution: {integrity: sha512-VplaqIMRNsNOorCXJHkbF5S0pT6xm8Z/s7w7OPZLohf8tR93XH0krvUafpNy/ozEylrWuShJF0+ftEB+wFRwGA==}
+  '@shikijs/transformers@3.9.2':
+    resolution: {integrity: sha512-MW5hT4TyUp6bNAgTExRYLk1NNasVQMTCw1kgbxHcEC0O5cbepPWaB+1k+JzW9r3SP2/R8kiens8/3E6hGKfgsA==}
 
-  '@shikijs/twoslash@3.7.0':
-    resolution: {integrity: sha512-EjnV193iasm/M5UHVDJg6WyX6dIMCb0YhsKKlgWv3OK7iLFjuW7sUp978ZkO2OIn3niqBT6e+CX1LgoPM8jYjQ==}
+  '@shikijs/twoslash@3.9.2':
+    resolution: {integrity: sha512-LRAhdZwp+4AXyScSgWAyoo1EM6lf2iTQPivl3w9fWSBi3yp4MJZfbed/6dcemd20jW4A9olzB3j1mFAKv/CRFw==}
     peerDependencies:
       typescript: '>=5.5.0'
 
-  '@shikijs/types@3.6.0':
-    resolution: {integrity: sha512-cLWFiToxYu0aAzJqhXTQsFiJRTFDAGl93IrMSBNaGSzs7ixkLfdG6pH11HipuWFGW5vyx4X47W8HDQ7eSrmBUg==}
-
   '@shikijs/types@3.7.0':
     resolution: {integrity: sha512-MGaLeaRlSWpnP0XSAum3kP3a8vtcTsITqoEPYdt3lQG3YCdQH4DnEhodkYcNMcU0uW0RffhoD1O3e0vG5eSBBg==}
+
+  '@shikijs/types@3.9.2':
+    resolution: {integrity: sha512-/M5L0Uc2ljyn2jKvj4Yiah7ow/W+DJSglVafvWAJ/b8AZDeeRAdMu3c2riDzB7N42VD+jSnWxeP9AKtd4TfYVw==}
 
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
@@ -863,11 +866,11 @@ packages:
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
 
-  '@zag-js/dom-query@1.15.7':
-    resolution: {integrity: sha512-EDGICVzJ5Rh+hPYFG3UUARrF6q+VrjJgGVULMQ3moVI6M4/VMWyp6vN61hIxlUALBTyQtvqiSlzz11JRztAaNQ==}
+  '@zag-js/dom-query@1.21.1':
+    resolution: {integrity: sha512-O4db9iYvKeHPjBOtE92p01WXKHngzRRsR7Y5p1cNZ4cbBq15PH2lICcWwUyIxx5zjADZHx6HIv3E+Mg/KCauKA==}
 
-  '@zag-js/types@1.15.7':
-    resolution: {integrity: sha512-kTsL/F1ebTYyzdyPZgGRc/KJC878vegjFRqidwxGLmnYy+TRNK1abnY+nczfHsuQHOzNfPrFPr+7JH9wBQFJKw==}
+  '@zag-js/types@1.21.1':
+    resolution: {integrity: sha512-KbKMwJnrj6wmi4FOcaIMwqBVPz4KZRAn0D7Il8QjvAaJc5SdqkK18lcxQz4/v02EmQ4uOrHgKchcnB+ZHcBFCw==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -1923,8 +1926,8 @@ packages:
     peerDependencies:
       '@astrojs/starlight': '>=0.32.0'
 
-  starlight-theme-nova@0.9.0:
-    resolution: {integrity: sha512-Hk85+61KXx1xq4JV0jortgaztIra5jxpKvTcqnrI/RXPx/vYdyHeIg6vk3Ij5ZO0VfogNANUeQs+B2oj7lP3kw==}
+  starlight-theme-nova@0.9.3:
+    resolution: {integrity: sha512-ielQ5lTcFYR+GG9peQcCcXiCUmHTE7UPk8ehJPtNVtd4FSz1NO8J/NqUntv+bWa3EC1eBUlwtzvwKwU0Earkcw==}
     peerDependencies:
       '@astrojs/starlight': '*'
     peerDependenciesMeta:
@@ -1995,11 +1998,11 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  twoslash-protocol@0.3.1:
-    resolution: {integrity: sha512-BMePTL9OkuNISSyyMclBBhV2s9++DiOCyhhCoV5Kaht6eaWLwVjCCUJHY33eZJPsyKeZYS8Wzz0h+XI01VohVw==}
+  twoslash-protocol@0.3.3:
+    resolution: {integrity: sha512-26NXjXEj+2NgytwOjjhFtNpQI7Zgct6PTyLg6JO7fIbO7MIm+kx89IxvBustgBOSKxoWjNBN2LXjNHHMD7+k0g==}
 
-  twoslash@0.3.1:
-    resolution: {integrity: sha512-OGqMTGvqXTcb92YQdwGfEdK0nZJA64Aj/ChLOelbl3TfYch2IoBST0Yx4C0LQ7Lzyqm9RpgcpgDxeXQIz4p2Kg==}
+  twoslash@0.3.3:
+    resolution: {integrity: sha512-Yen1RBSYh/NUR6tfK6xT7DsXkBYby7lfp078Q7XoJR5dtAeG9jB5PVL1oF2sZwHapLjaqcZNlw7GSB8himZNsQ==}
     peerDependencies:
       typescript: ^5.5.0
 
@@ -2383,10 +2386,10 @@ snapshots:
 
   '@aria-ui/core@0.0.21':
     dependencies:
-      '@ariatype/aria-attributes': 1.0.1
-      '@ariatype/aria-roles': 1.0.1
-      '@preact/signals-core': 1.10.0
-      '@zag-js/dom-query': 1.15.7
+      '@ariatype/aria-attributes': 1.0.2
+      '@ariatype/aria-roles': 1.0.2
+      '@preact/signals-core': 1.11.0
+      '@zag-js/dom-query': 1.21.1
       just-kebab-case: 4.2.0
       just-map-values: 3.2.0
       server-dom-shim: 1.0.2
@@ -2394,14 +2397,14 @@ snapshots:
   '@aria-ui/overlay@0.0.24':
     dependencies:
       '@aria-ui/core': 0.0.21
-      '@floating-ui/dom': 1.7.1
-      '@floating-ui/utils': 0.2.9
-      '@zag-js/dom-query': 1.15.7
+      '@floating-ui/dom': 1.7.3
+      '@floating-ui/utils': 0.2.10
+      '@zag-js/dom-query': 1.21.1
 
   '@aria-ui/presence@0.0.19':
     dependencies:
       '@aria-ui/core': 0.0.21
-      '@zag-js/dom-query': 1.15.7
+      '@zag-js/dom-query': 1.21.1
 
   '@aria-ui/tooltip@0.0.29':
     dependencies:
@@ -2410,59 +2413,59 @@ snapshots:
       '@aria-ui/presence': 0.0.19
       nanoid: 5.1.5
 
-  '@ariatype/aria-attributes-drag-and-drop@1.0.1': {}
+  '@ariatype/aria-attributes-drag-and-drop@1.0.2': {}
 
-  '@ariatype/aria-attributes-global@1.0.1': {}
+  '@ariatype/aria-attributes-global@1.0.2': {}
 
-  '@ariatype/aria-attributes-live-region@1.0.1': {}
+  '@ariatype/aria-attributes-live-region@1.0.2': {}
 
-  '@ariatype/aria-attributes-relationship@1.0.1': {}
+  '@ariatype/aria-attributes-relationship@1.0.2': {}
 
-  '@ariatype/aria-attributes-widget@1.0.1': {}
+  '@ariatype/aria-attributes-widget@1.0.2': {}
 
-  '@ariatype/aria-attributes@1.0.1':
+  '@ariatype/aria-attributes@1.0.2':
     dependencies:
-      '@ariatype/aria-attributes-drag-and-drop': 1.0.1
-      '@ariatype/aria-attributes-global': 1.0.1
-      '@ariatype/aria-attributes-live-region': 1.0.1
-      '@ariatype/aria-attributes-relationship': 1.0.1
-      '@ariatype/aria-attributes-widget': 1.0.1
+      '@ariatype/aria-attributes-drag-and-drop': 1.0.2
+      '@ariatype/aria-attributes-global': 1.0.2
+      '@ariatype/aria-attributes-live-region': 1.0.2
+      '@ariatype/aria-attributes-relationship': 1.0.2
+      '@ariatype/aria-attributes-widget': 1.0.2
 
-  '@ariatype/aria-roles-composite@1.0.1':
+  '@ariatype/aria-roles-composite@1.0.2':
     dependencies:
-      '@ariatype/aria-roles-generic': 1.0.1
+      '@ariatype/aria-roles-generic': 1.0.2
 
-  '@ariatype/aria-roles-document-structure@1.0.1':
+  '@ariatype/aria-roles-document-structure@1.0.2':
     dependencies:
-      '@ariatype/aria-roles-generic': 1.0.1
+      '@ariatype/aria-roles-generic': 1.0.2
 
-  '@ariatype/aria-roles-generic@1.0.1': {}
+  '@ariatype/aria-roles-generic@1.0.2': {}
 
-  '@ariatype/aria-roles-landmark@1.0.1':
+  '@ariatype/aria-roles-landmark@1.0.2':
     dependencies:
-      '@ariatype/aria-roles-generic': 1.0.1
+      '@ariatype/aria-roles-generic': 1.0.2
 
-  '@ariatype/aria-roles-live-region@1.0.1':
+  '@ariatype/aria-roles-live-region@1.0.2':
     dependencies:
-      '@ariatype/aria-roles-generic': 1.0.1
+      '@ariatype/aria-roles-generic': 1.0.2
 
-  '@ariatype/aria-roles-widget@1.0.1':
+  '@ariatype/aria-roles-widget@1.0.2':
     dependencies:
-      '@ariatype/aria-roles-generic': 1.0.1
+      '@ariatype/aria-roles-generic': 1.0.2
 
-  '@ariatype/aria-roles-window@1.0.1':
+  '@ariatype/aria-roles-window@1.0.2':
     dependencies:
-      '@ariatype/aria-roles-generic': 1.0.1
+      '@ariatype/aria-roles-generic': 1.0.2
 
-  '@ariatype/aria-roles@1.0.1':
+  '@ariatype/aria-roles@1.0.2':
     dependencies:
-      '@ariatype/aria-roles-composite': 1.0.1
-      '@ariatype/aria-roles-document-structure': 1.0.1
-      '@ariatype/aria-roles-generic': 1.0.1
-      '@ariatype/aria-roles-landmark': 1.0.1
-      '@ariatype/aria-roles-live-region': 1.0.1
-      '@ariatype/aria-roles-widget': 1.0.1
-      '@ariatype/aria-roles-window': 1.0.1
+      '@ariatype/aria-roles-composite': 1.0.2
+      '@ariatype/aria-roles-document-structure': 1.0.2
+      '@ariatype/aria-roles-generic': 1.0.2
+      '@ariatype/aria-roles-landmark': 1.0.2
+      '@ariatype/aria-roles-live-region': 1.0.2
+      '@ariatype/aria-roles-widget': 1.0.2
+      '@ariatype/aria-roles-window': 1.0.2
 
   '@astrojs/check@0.9.4(typescript@5.8.3)':
     dependencies:
@@ -2759,16 +2762,16 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.2
 
-  '@floating-ui/core@1.7.1':
+  '@floating-ui/core@1.7.3':
     dependencies:
-      '@floating-ui/utils': 0.2.9
+      '@floating-ui/utils': 0.2.10
 
-  '@floating-ui/dom@1.7.1':
+  '@floating-ui/dom@1.7.3':
     dependencies:
-      '@floating-ui/core': 1.7.1
-      '@floating-ui/utils': 0.2.9
+      '@floating-ui/core': 1.7.3
+      '@floating-ui/utils': 0.2.10
 
-  '@floating-ui/utils@0.2.9': {}
+  '@floating-ui/utils@0.2.10': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
@@ -2930,7 +2933,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.4': {}
 
-  '@lit-labs/ssr-dom-shim@1.3.0': {}
+  '@lit-labs/ssr-dom-shim@1.4.0': {}
 
   '@mdx-js/mdx@3.1.0(acorn@8.15.0)':
     dependencies:
@@ -2993,7 +2996,7 @@ snapshots:
   '@pagefind/windows-x64@1.3.0':
     optional: true
 
-  '@preact/signals-core@1.10.0': {}
+  '@preact/signals-core@1.11.0': {}
 
   '@rollup/pluginutils@5.2.0(rollup@4.44.1)':
     dependencies:
@@ -3070,6 +3073,13 @@ snapshots:
       '@types/hast': 3.0.4
       hast-util-to-html: 9.0.5
 
+  '@shikijs/core@3.9.2':
+    dependencies:
+      '@shikijs/types': 3.9.2
+      '@shikijs/vscode-textmate': 10.0.2
+      '@types/hast': 3.0.4
+      hast-util-to-html: 9.0.5
+
   '@shikijs/engine-javascript@3.7.0':
     dependencies:
       '@shikijs/types': 3.7.0
@@ -3089,26 +3099,26 @@ snapshots:
     dependencies:
       '@shikijs/types': 3.7.0
 
-  '@shikijs/transformers@3.7.0':
+  '@shikijs/transformers@3.9.2':
     dependencies:
-      '@shikijs/core': 3.7.0
-      '@shikijs/types': 3.7.0
+      '@shikijs/core': 3.9.2
+      '@shikijs/types': 3.9.2
 
-  '@shikijs/twoslash@3.7.0(typescript@5.8.3)':
+  '@shikijs/twoslash@3.9.2(typescript@5.8.3)':
     dependencies:
-      '@shikijs/core': 3.7.0
-      '@shikijs/types': 3.7.0
-      twoslash: 0.3.1(typescript@5.8.3)
+      '@shikijs/core': 3.9.2
+      '@shikijs/types': 3.9.2
+      twoslash: 0.3.3(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
 
-  '@shikijs/types@3.6.0':
+  '@shikijs/types@3.7.0':
     dependencies:
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
 
-  '@shikijs/types@3.7.0':
+  '@shikijs/types@3.9.2':
     dependencies:
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
@@ -3224,11 +3234,11 @@ snapshots:
 
   '@vscode/l10n@0.0.18': {}
 
-  '@zag-js/dom-query@1.15.7':
+  '@zag-js/dom-query@1.21.1':
     dependencies:
-      '@zag-js/types': 1.15.7
+      '@zag-js/types': 1.21.1
 
-  '@zag-js/types@1.15.7':
+  '@zag-js/types@1.21.1':
     dependencies:
       csstype: 3.1.3
 
@@ -4809,7 +4819,7 @@ snapshots:
 
   server-dom-shim@1.0.2:
     dependencies:
-      '@lit-labs/ssr-dom-shim': 1.3.0
+      '@lit-labs/ssr-dom-shim': 1.4.0
 
   sharp@0.33.5:
     dependencies:
@@ -4870,8 +4880,8 @@ snapshots:
     dependencies:
       '@aria-ui/core': 0.0.21
       '@aria-ui/tooltip': 0.0.29
-      '@shikijs/twoslash': 3.7.0(typescript@5.8.3)
-      '@shikijs/types': 3.6.0
+      '@shikijs/twoslash': 3.9.2(typescript@5.8.3)
+      '@shikijs/types': 3.9.2
       '@types/hast': 3.0.4
     transitivePeerDependencies:
       - supports-color
@@ -4914,13 +4924,13 @@ snapshots:
       '@astrojs/starlight': 0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0))
       picomatch: 4.0.2
 
-  starlight-theme-nova@0.9.0(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))(typescript@5.8.3):
+  starlight-theme-nova@0.9.3(@astrojs/starlight@0.34.4(astro@5.11.0(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.3)(yaml@2.8.0)))(typescript@5.8.3):
     dependencies:
       '@aria-ui/core': 0.0.21
       '@pagefind/default-ui': 1.3.0
-      '@shikijs/transformers': 3.7.0
-      '@shikijs/twoslash': 3.7.0(typescript@5.8.3)
-      '@shikijs/types': 3.6.0
+      '@shikijs/transformers': 3.9.2
+      '@shikijs/twoslash': 3.9.2(typescript@5.8.3)
+      '@shikijs/types': 3.9.2
       '@types/hast': 3.0.4
       astro-theme-toggle: 0.6.1
       hast-util-is-element: 3.0.0
@@ -4993,12 +5003,12 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  twoslash-protocol@0.3.1: {}
+  twoslash-protocol@0.3.3: {}
 
-  twoslash@0.3.1(typescript@5.8.3):
+  twoslash@0.3.3(typescript@5.8.3):
     dependencies:
       '@typescript/vfs': 1.6.1(typescript@5.8.3)
-      twoslash-protocol: 0.3.1
+      twoslash-protocol: 0.3.3
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
